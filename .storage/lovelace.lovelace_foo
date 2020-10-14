@@ -1,0 +1,123 @@
+{
+    "data": {
+        "config": {
+            "title": "Foo",
+            "views": [
+                {
+                    "badges": [
+                        {
+                            "entity": "sensor.auk_battery_level"
+                        },
+                        {
+                            "entity": "sensor.auk_battery_state"
+                        },
+                        {
+                            "entity": "sensor.auk_distance"
+                        },
+                        {
+                            "entity": "sensor.auk_connection_type"
+                        },
+                        {
+                            "entity": "sun.sun"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "scene.daylight_in_living_room"
+                                },
+                                {
+                                    "entity": "scene.warm_light_in_living_room"
+                                },
+                                {
+                                    "entity": "scene.dim_living_room"
+                                },
+                                {
+                                    "entity": "scene.living_room_lights_off"
+                                },
+                                {
+                                    "entity": "scene.watching_movies"
+                                },
+                                {
+                                    "entity": "light.the_home_depot_ecosmart_zbt_br30_cct_bulb_fe74d7fe_level_light_color_on_off"
+                                },
+                                {
+                                    "entity": "light.the_home_depot_ecosmart_zbt_br30_cct_bulb_level_light_color_on_off"
+                                },
+                                {
+                                    "entity": "sensor.living_room_temperature"
+                                },
+                                {
+                                    "entity": "binary_sensor.living_room"
+                                },
+                                {
+                                    "entity": "media_player.denon_avr"
+                                }
+                            ],
+                            "title": "Living Room",
+                            "type": "entities"
+                        },
+                        {
+                            "columns": 4,
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.kitchen"
+                                },
+                                {
+                                    "entity": "binary_sensor.dining_room"
+                                },
+                                {
+                                    "entity": "binary_sensor.living_room"
+                                },
+                                {
+                                    "entity": "binary_sensor.office"
+                                }
+                            ],
+                            "title": "Activity",
+                            "type": "glance"
+                        },
+                        {
+                            "entity": "media_player.denon_avr",
+                            "type": "media-control"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entity": "climate.dining_room",
+                                    "type": "thermostat"
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.kitchen_temperature"
+                                        },
+                                        {
+                                            "entity": "sensor.living_room_temperature"
+                                        },
+                                        {
+                                            "entity": "sensor.office_temperature"
+                                        }
+                                    ],
+                                    "show_icon": true,
+                                    "show_state": true,
+                                    "type": "glance"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "entity": "weather.home",
+                            "show_forecast": false,
+                            "type": "weather-forecast"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                }
+            ]
+        }
+    },
+    "key": "lovelace.lovelace_foo",
+    "version": 1
+}
