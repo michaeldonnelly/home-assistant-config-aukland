@@ -1,0 +1,13 @@
+{
+    "data": {
+        "items": [
+            {
+                "icon": "mdi:movie-open",
+                "id": "movie_time",
+                "name": "Movie Time"
+            }
+        ]
+    },
+    "key": "input_boolean",
+    "version": 1
+}
