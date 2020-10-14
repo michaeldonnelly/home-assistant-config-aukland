@@ -29,7 +29,6 @@
                         },
                         {
                             "entities": [
-                                "scene.done_with_movies",
                                 "scene.listening_to_music",
                                 "scene.living_room_lights_off",
                                 "scene.daylight_in_living_room",
