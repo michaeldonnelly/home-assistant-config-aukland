@@ -1,0 +1,12 @@
+{
+    "data": {
+        "users": [
+            {
+                "password": !secrets password_hass
+                "username": "donnelly"
+            }
+        ]
+    },
+    "key": "auth_provider.homeassistant",
+    "version": 1
+}
