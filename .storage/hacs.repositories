@@ -3081,7 +3081,7 @@
             "category": "integration",
             "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
             "domain": "hacs",
-            "downloads": 33708,
+            "downloads": 33719,
             "first_install": false,
             "full_name": "hacs/integration",
             "installed": true,
@@ -19132,6 +19132,37 @@
                 "loadshedding",
                 "south-africa"
             ],
+            "version_installed": null
+        },
+        "290261325": {
+            "authors": [
+                "@basnijholt",
+                "@claytonjn"
+            ],
+            "category": "integration",
+            "description": "Circadian Lighting custom component for Home Assistant",
+            "domain": "adaptive_lighting",
+            "downloads": 0,
+            "first_install": false,
+            "full_name": "basnijholt/adaptive-lighting",
+            "installed": true,
+            "installed_commit": "86d1cad",
+            "last_commit": "86d1cad",
+            "last_release_tag": null,
+            "last_updated": "2020-10-13T20:39:46Z",
+            "name": "adaptive_lighting",
+            "new": false,
+            "repository_manifest": {
+                "domains": [
+                    "switch"
+                ],
+                "name": "adaptive_lighting",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 24,
+            "topics": [],
             "version_installed": null
         },
         "290281267": {
