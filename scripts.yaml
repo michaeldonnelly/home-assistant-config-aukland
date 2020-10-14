@@ -1,0 +1,23 @@
+turn_off_projector:
+  alias: Turn Off Projector
+  mode: single
+  sequence:
+  - data:
+      command: 'off'
+      delay_secs: 1
+      device: projector
+      entity_id: remote.broadlink
+      num_repeats: 2
+    entity_id: remote.broadlink
+    service: remote.send_command
+
+turn_on_projector:
+  alias: Turn On Projector
+  mode: single
+  sequence:
+  - data:
+      command: 'on'
+      device: projector
+      entity_id: remote.broadlink
+    entity_id: remote.broadlink
+    service: remote.send_command
