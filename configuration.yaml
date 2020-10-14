@@ -17,3 +17,6 @@ remote:
       host: !secret broadlink_ip
       mac: !secret broadlink_mac
       type: rm4_mini
+
+
+# foo
