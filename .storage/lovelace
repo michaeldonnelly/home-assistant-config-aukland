@@ -93,12 +93,6 @@
                                     "entity": "remote.roku_3"
                                 },
                                 {
-                                    "entity": "light.the_home_depot_ecosmart_zbt_br30_cct_bulb_fe74d7fe_level_light_color_on_off"
-                                },
-                                {
-                                    "entity": "light.the_home_depot_ecosmart_zbt_br30_cct_bulb_level_light_color_on_off"
-                                },
-                                {
                                     "entity": "scene.watching_movies"
                                 },
                                 {
@@ -128,28 +122,8 @@
                             "type": "entities"
                         },
                         {
-                            "entities": [
-                                "input_boolean.foo"
-                            ],
-                            "title": "Input boolean",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "switch.unifi_poe_00_00_00_00_00_01",
-                                "switch.wrencam",
-                                "switch.wrencam_2"
-                            ],
-                            "title": "Switch",
-                            "type": "entities"
-                        },
-                        {
                             "entity": "weather.home",
                             "type": "weather-forecast"
-                        },
-                        {
-                            "entity": "light.the_home_depot_ecosmart_zbt_br30_cct_bulb_level_light_color_on_off",
-                            "type": "light"
                         },
                         {
                             "entity": "light.living_room_north",
