@@ -3,3 +3,5 @@ homeassistant.log
 home-assistant.log
 home-assistant_v2.db*
 
+auth
+auth_provider.homeassistant
