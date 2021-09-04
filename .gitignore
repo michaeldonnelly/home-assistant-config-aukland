@@ -1,7 +1,10 @@
+auth
+auth_provider.homeassistant
 secrets.yaml
 homeassistant.log
 home-assistant.log
 home-assistant_v2.db*
-
-auth
-auth_provider.homeassistant
+log/home-assistant_v2.db
+log/home-assistant_v2.db-shm
+log/home-assistant_v2.db-wal
+core.*
