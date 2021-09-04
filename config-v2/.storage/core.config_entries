@@ -1,0 +1,44 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "8ba951280b8c11ec9be443e9d76322b6",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "onboarding",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "cdfd591a0b8c11ec8e01d7a97ecfb595",
+                "version": 2,
+                "domain": "zha",
+                "title": "HubZ Smart Home Controller, s/n: C130058B - Silicon Labs",
+                "data": {
+                    "radio_type": "ezsp",
+                    "device": {
+                        "path": "/dev/serial/by-id/usb-Silicon_Labs_HubZ_Smart_Home_Controller_C130058B-if01-port0",
+                        "baudrate": 57600
+                    }
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_push",
+                "unique_id": null
+            }
+        ]
+    }
+}

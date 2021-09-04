@@ -1,0 +1,110 @@
+{
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "light.living_room_north",
+                                "light.living_room_south"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Living Room Lights",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "media_player.denon_avr",
+                            "type": "media-control"
+                        },
+                        {
+                            "entities": [
+                                "script.turn_off_projector",
+                                "script.turn_on_projector"
+                            ],
+                            "title": "Script",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "scene.listening_to_music",
+                                "scene.living_room_lights_off",
+                                "scene.daylight_in_living_room",
+                                "scene.dim_living_room",
+                                "scene.warm_light_in_living_room",
+                                "scene.watching_movies"
+                            ],
+                            "title": "Scene",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "climate.dining_room",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entity": "weather.home",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entity": "media_player.roku_3",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "automation.scene_watching_movies",
+                            "icon": "mdi:movie-open",
+                            "type": "entity"
+                        },
+                        {
+                            "entity": "automation.scene_watching_movies",
+                            "hold_action": {
+                                "action": "more-info"
+                            },
+                            "icon": "mdi:movie_open",
+                            "show_icon": true,
+                            "show_name": true,
+                            "show_state": false,
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "type": "button"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "light.living_room_north",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "sun.sun",
+                            "hold_action": {
+                                "action": "more-info"
+                            },
+                            "show_icon": true,
+                            "show_name": true,
+                            "show_state": false,
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "type": "button"
+                        },
+                        {
+                            "entity": "light.living_room_south",
+                            "type": "light"
+                        }
+                    ],
+                    "path": "test",
+                    "title": "test"
+                }
+            ]
+        }
+    },
+    "key": "lovelace.lovelace_aukland",
+    "version": 1
+}

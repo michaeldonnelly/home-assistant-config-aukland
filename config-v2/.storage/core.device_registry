@@ -1,0 +1,113 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "cdfd591a0b8c11ec8e01d7a97ecfb595"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:0d:6f:00:14:d6:5f:7c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:0d:6f:00:14:d6:5f:7c"
+                    ]
+                ],
+                "manufacturer": "ZHA",
+                "model": "EZSP = Silicon Labs EmberZNet protocol: Elelabs, HUSBZB-1, Telegesis",
+                "name": "Zigbee Coordinator",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "cf3701c10b8c11ecb288d9f24a0fe1d6",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "cdfd591a0b8c11ec8e01d7a97ecfb595"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:90:2b:64"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:90:2b:64"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-A19-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-A19-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "e65f07130b8c11ec89992b92436558ed",
+                "via_device_id": "cf3701c10b8c11ecb288d9f24a0fe1d6",
+                "area_id": "796824270b8c11eca4e51b49accc8ffc",
+                "name_by_user": "Living Room Light North"
+            },
+            {
+                "config_entries": [
+                    "cdfd591a0b8c11ec8e01d7a97ecfb595"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:02:d6:c9:70"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:02:d6:c9:70"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "RWL020",
+                "name": "Philips RWL020",
+                "sw_version": "0x420045b6",
+                "entry_type": null,
+                "id": "bad834da0b8d11ecba358ff12beb7c76",
+                "via_device_id": "cf3701c10b8c11ecb288d9f24a0fe1d6",
+                "area_id": "796824270b8c11eca4e51b49accc8ffc",
+                "name_by_user": "Philips Switch"
+            },
+            {
+                "config_entries": [
+                    "cdfd591a0b8c11ec8e01d7a97ecfb595"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "14:b4:57:ff:fe:c7:e4:b9"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "14:b4:57:ff:fe:c7:e4:b9"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-A19-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-A19-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "e44c0dfe0b8d11ec99e7a524d4aca11a",
+                "via_device_id": "cf3701c10b8c11ecb288d9f24a0fe1d6",
+                "area_id": "796824270b8c11eca4e51b49accc8ffc",
+                "name_by_user": "Living Room Light South"
+            }
+        ],
+        "deleted_devices": []
+    }
+}

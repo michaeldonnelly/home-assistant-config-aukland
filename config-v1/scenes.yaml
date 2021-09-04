@@ -1,0 +1,160 @@
+- id: '1599945229510'
+  name: Watching Movies
+  entities:
+    media_player.denon_avr:
+      friendly_name: Marantz 7005
+      is_volume_muted: false
+      media_content_type: channel
+      media_title: Roku
+      sound_mode: STEREO
+      sound_mode_list:
+      - MUSIC
+      - MOVIE
+      - GAME
+      - AUTO
+      - STANDARD
+      - VIRTUAL
+      - MATRIX
+      - ROCK ARENA
+      - JAZZ CLUB
+      - VIDEO GAME
+      - MONO MOVIE
+      - DIRECT
+      - PURE DIRECT
+      - DOLBY DIGITAL
+      - DTS SURROUND
+      - MCH STEREO
+      - STEREO
+      - ALL ZONE STEREO
+      sound_mode_raw: Stereo
+      source: Roku
+      source_list:
+      - Blu-ray
+      - CD
+      - Internet
+      - Roku
+      - auk 1
+      state: 'on'
+      supported_features: 69004
+      volume_level: 0.55
+    scene.living_room_lights_off:
+      entity_id:
+      - light.the_home_depot_ecosmart_zbt_a19_cct_bulb_b9e4c7fe_level_light_color_on_off
+      - light.the_home_depot_ecosmart_zbt_a19_cct_bulb_level_light_color_on_off
+      friendly_name: 'Living Room: Off'
+      icon: mdi:circle
+      id: '1600128603048'
+      state: scening
+    script.turn_on_projector:
+      friendly_name: Turn On Projector
+      last_triggered:
+      mode: single
+      state: 'off'
+  icon: mdi:movie-open
+- id: '1599957051160'
+  name: 'Living room: Warm'
+  entities:
+    light.living_room_north:
+      brightness: 183
+      color_temp: 342
+      friendly_name: Lamp Living Room North level, light_color, on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.living_room_south:
+      brightness: 183
+      color_temp: 342
+      friendly_name: Lamp Living Room South b9e4c7fe level, light_color, on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+  icon: mdi:circle-half-full
+- id: '1599957145016'
+  name: 'Living room: Daylight'
+  entities:
+    group.living_room_lights:
+      brightness: 254
+      color_temp: 153
+      friendly_name: Lamp Living Room South b9e4c7fe level, light_color, on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+  icon: mdi:circle-outline
+- id: '1599965661330'
+  name: 'Living room: Dim'
+  entities:
+    group.living_room_lights:
+      brightness: 112
+      color_temp: 366
+      friendly_name: Lamp Living Room South b9e4c7fe level, light_color, on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+  icon: mdi:circle-half
+- id: '1600128603048'
+  name: 'Living Room: Off'
+  entities:
+    group.living_room_lights:
+      friendly_name: Lamp Living Room South b9e4c7fe level, light_color, on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'off'
+      supported_features: 43
+  icon: mdi:circle
+- id: '1600223346698'
+  name: Listening to Music
+  entities:
+    media_player.denon_avr:
+      friendly_name: Marantz 7005
+      is_volume_muted: false
+      media_content_type: channel
+      media_title: Internet
+      sound_mode: STEREO
+      sound_mode_list:
+      - MUSIC
+      - MOVIE
+      - GAME
+      - AUTO
+      - STANDARD
+      - VIRTUAL
+      - MATRIX
+      - ROCK ARENA
+      - JAZZ CLUB
+      - VIDEO GAME
+      - MONO MOVIE
+      - DIRECT
+      - PURE DIRECT
+      - DOLBY DIGITAL
+      - DTS SURROUND
+      - MCH STEREO
+      - STEREO
+      - ALL ZONE STEREO
+      sound_mode_raw: Stereo
+      source: Internet
+      source_list:
+      - Blu-ray
+      - CD
+      - Internet
+      - Roku
+      - auk 1
+      state: 'on'
+      supported_features: 69004
+      volume_level: 0.56
+    scene.dim_living_room:
+      entity_id:
+      - light.the_home_depot_ecosmart_zbt_a19_cct_bulb_b9e4c7fe_level_light_color_on_off
+      - light.the_home_depot_ecosmart_zbt_a19_cct_bulb_level_light_color_on_off
+      friendly_name: 'Living room: Dim'
+      icon: mdi:circle-half
+      id: '1599965661330'
+      state: scening
+  icon: mdi:music

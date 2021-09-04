@@ -1,0 +1,32 @@
+{
+    "data": {
+        "areas": [
+            {
+                "id": "9cc47a43a3ea46ebbdde0ed75d8e874c",
+                "name": "Living Room"
+            },
+            {
+                "id": "3e160616d36b437f913c4a9098fc109a",
+                "name": "Kitchen"
+            },
+            {
+                "id": "22309a9c627149ce9c433dec762569c9",
+                "name": "Bedroom"
+            },
+            {
+                "id": "2fd00fe34bbc4e3ab05cdbeb6294c6bc",
+                "name": "Dining Room"
+            },
+            {
+                "id": "74e9b573b7c64b69b1e4f85afce49955",
+                "name": "Office"
+            },
+            {
+                "id": "dd5f3042d7b5459ba6575e2585e427e3",
+                "name": "Apartment"
+            }
+        ]
+    },
+    "key": "core.area_registry",
+    "version": 1
+}

@@ -1,0 +1,141 @@
+{
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "badges": [
+                        {
+                            "entity": "binary_sensor.updater"
+                        },
+                        {
+                            "entity": "person.michael_donnelly"
+                        },
+                        {
+                            "entity": "person.laura"
+                        },
+                        {
+                            "entity": "sensor.auk_distance"
+                        },
+                        {
+                            "entity": "sensor.auk_activity"
+                        },
+                        {
+                            "entity": "sensor.auk_steps"
+                        },
+                        {
+                            "entity": "sensor.auk_average_active_pace"
+                        },
+                        {
+                            "entity": "sensor.auk_battery_level"
+                        },
+                        {
+                            "entity": "sensor.auk_battery_state"
+                        },
+                        {
+                            "entity": "sensor.auk_storage"
+                        },
+                        {
+                            "entity": "sensor.auk_bssid"
+                        },
+                        {
+                            "entity": "sensor.auk_connection_type"
+                        },
+                        {
+                            "entity": "sensor.auk_ssid"
+                        },
+                        {
+                            "entity": "sensor.auk_sim_1"
+                        },
+                        {
+                            "entity": "sensor.auk_last_update_trigger"
+                        },
+                        {
+                            "entity": "sensor.auk_geocoded_location"
+                        },
+                        {
+                            "entity": "sun.sun"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                "binary_sensor.dining_room",
+                                "binary_sensor.dining_room_2"
+                            ],
+                            "title": "Dining Room",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "climate.dining_room",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.kitchen",
+                                {
+                                    "entity": "sensor.kitchen_temperature",
+                                    "name": "Temp"
+                                }
+                            ],
+                            "title": "Kitchen",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.living_room"
+                                },
+                                {
+                                    "entity": "sensor.living_room_temperature"
+                                },
+                                {
+                                    "entity": "remote.roku_3"
+                                },
+                                {
+                                    "entity": "scene.watching_movies"
+                                },
+                                {
+                                    "entity": "scene.warm_light_in_living_room"
+                                }
+                            ],
+                            "title": "Living Room",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "media_player.denon_avr",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.roku_3",
+                            "type": "media-control"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.office",
+                                {
+                                    "entity": "sensor.office_temperature",
+                                    "name": "Temp"
+                                }
+                            ],
+                            "title": "Office",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "weather.home",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entity": "light.living_room_north",
+                            "type": "light"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

@@ -1,0 +1,97 @@
+- id: '981278927919'
+  alias: Living Room Lights On
+  action:
+  - alias: Turn on living room lights
+    service: light.turn_on
+    entity_id: group.living_room_lights
+  condition: []
+  trigger:
+  - device_id: 7497852fbb554655a1ec0d2bddd12133
+    domain: zha
+    platform: device
+    subtype: turn_on
+    type: remote_button_short_press
+  mode: single
+- id: '981278927920'
+  alias: Living Room Lights Off
+  action:
+  - alias: Turn off living room lights
+    service: light.turn_off
+    entity_id: group.living_room_lights
+  condition: []
+  trigger:
+  - device_id: 7497852fbb554655a1ec0d2bddd12133
+    domain: zha
+    platform: device
+    subtype: turn_off
+    type: remote_button_short_press
+  mode: single
+- id: '981278927921'
+  alias: Living Room Lights Brighter
+  action:
+  - device_id: 4417be23805c4b0f8c04c0cfe45a360b
+    domain: light
+    entity_id: group.living_room_lights
+    type: brightness_increase
+  condition: []
+  trigger:
+  - device_id: 7497852fbb554655a1ec0d2bddd12133
+    domain: zha
+    platform: device
+    subtype: dim_up
+    type: remote_button_short_press
+  mode: single
+- id: '981278927922'
+  alias: Living Room Lights Dimmer
+  action:
+  - device_id: 4417be23805c4b0f8c04c0cfe45a360b
+    domain: light
+    entity_id: group.living_room_lights
+    type: brightness_decrease
+  condition: []
+  trigger:
+  - device_id: 7497852fbb554655a1ec0d2bddd12133
+    domain: zha
+    platform: device
+    subtype: dim_down
+    type: remote_button_short_press
+  mode: single
+- id: '1600918865558'
+  alias: 'Scene: Watching Movies'
+  description: ''
+  trigger:
+  - device_id: 7497852fbb554655a1ec0d2bddd12133
+    domain: zha
+    platform: device
+    subtype: turn_off
+    type: remote_button_long_release
+  condition: []
+  action:
+  - scene: scene.watching_movies
+  mode: single
+- id: '1600918865559'
+  alias: 'Scene: Living Room: Daylight'
+  description: ''
+  trigger:
+  - device_id: 7497852fbb554655a1ec0d2bddd12133
+    domain: zha
+    platform: device
+    subtype: turn_on
+    type: remote_button_long_release
+  condition: []
+  action:
+  - scene: scene.daylight_in_living_room
+  mode: single
+- id: '1601361994919'
+  alias: 'Scene: Living Room Warm'
+  description: ''
+  trigger:
+  - device_id: 7497852fbb554655a1ec0d2bddd12133
+    domain: zha
+    platform: device
+    subtype: dim_down
+    type: remote_button_long_release
+  condition: []
+  action:
+  - scene: scene.warm_light_in_living_room
+  mode: single

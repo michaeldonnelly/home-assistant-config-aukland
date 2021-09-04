@@ -1,0 +1,16 @@
+{
+    "data": {
+        "items": [
+            {
+                "id": "lovelace_aukland",
+                "mode": "storage",
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "Aukland",
+                "url_path": "lovelace-aukland"
+            }
+        ]
+    },
+    "key": "lovelace_dashboards",
+    "version": 1
+}
