@@ -1,0 +1,253 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.michael_donnelly",
+                "state": "unknown",
+                "attributes": {
+                    "editable": true,
+                    "id": "michael_donnelly",
+                    "user_id": "f65b8439c68141b3bfdc91917ed11943",
+                    "friendly_name": "Michael Donnelly"
+                },
+                "last_changed": "2021-09-02T02:11:27.010852+00:00",
+                "last_updated": "2021-09-02T02:11:33.710970+00:00",
+                "context": {
+                    "id": "1847f1fc0b9311ecab24e12d9f115c84",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T18:56:34.248942+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.living_room_lights_on",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-09-02T08:57:36.282235+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "9039000000021",
+                    "friendly_name": "Living Room Lights On"
+                },
+                "last_changed": "2021-09-02T02:11:28.864273+00:00",
+                "last_updated": "2021-09-02T08:57:36.609921+00:00",
+                "context": {
+                    "id": "d1813ef00bcb11ec9bad3bf62d685d8a",
+                    "parent_id": "d1801b3d0bcb11ec9cfad3afd5eaa7e6",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T18:56:34.248942+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.living_room_lights_off",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-09-02T09:48:31.432734+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "9039000000022",
+                    "friendly_name": "Living Room Lights Off"
+                },
+                "last_changed": "2021-09-02T02:11:28.864724+00:00",
+                "last_updated": "2021-09-02T09:48:31.813189+00:00",
+                "context": {
+                    "id": "ee8432e40bd211ec973b1fe8062b24ea",
+                    "parent_id": "ee82ad780bd211ec95ad8b701daa976a",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T18:56:34.248942+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.living_room_lights_brighter",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-09-02T02:12:36.544282+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "9039000000023",
+                    "friendly_name": "Living Room Lights Brighter"
+                },
+                "last_changed": "2021-09-02T02:11:28.865150+00:00",
+                "last_updated": "2021-09-02T02:12:37.051185+00:00",
+                "context": {
+                    "id": "3dbb7f420b9311ec82a6fd920be9b893",
+                    "parent_id": "3dbadcd40b9311ec9a36494f35c41388",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T18:56:34.248942+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.living_room_lights_dimmer",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-09-02T02:12:35.628032+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "9039000000024",
+                    "friendly_name": "Living Room Lights Dimmer"
+                },
+                "last_changed": "2021-09-02T02:11:28.865559+00:00",
+                "last_updated": "2021-09-02T02:12:35.953755+00:00",
+                "context": {
+                    "id": "3d2fb8540b9311ec915097bea643c9ec",
+                    "parent_id": "3d2f98d40b9311ec8d85dde2ca3862d0",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T18:56:34.248942+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.philips_switch_power",
+                "state": "100",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Philips Switch power",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-09-03T13:07:23.803604+00:00",
+                "last_updated": "2021-09-03T13:07:23.803604+00:00",
+                "context": {
+                    "id": "e12d50600cb711ecbfdba73c8a1d640a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T18:56:34.248942+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.living_room_north",
+                "state": "off",
+                "attributes": {
+                    "min_mireds": 153,
+                    "max_mireds": 370,
+                    "off_brightness": null,
+                    "friendly_name": "Living Room North Light",
+                    "supported_features": 43
+                },
+                "last_changed": "2021-09-02T09:48:31.804832+00:00",
+                "last_updated": "2021-09-02T09:48:31.804832+00:00",
+                "context": {
+                    "id": "ee8432e40bd211ec973b1fe8062b24ea",
+                    "parent_id": "ee82ad780bd211ec95ad8b701daa976a",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T18:56:34.248942+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.living_room_south",
+                "state": "off",
+                "attributes": {
+                    "min_mireds": 153,
+                    "max_mireds": 370,
+                    "off_brightness": null,
+                    "friendly_name": "Living Room South Light",
+                    "supported_features": 43
+                },
+                "last_changed": "2021-09-02T09:48:31.801866+00:00",
+                "last_updated": "2021-09-02T09:48:31.801866+00:00",
+                "context": {
+                    "id": "ee8432e40bd211ec973b1fe8062b24ea",
+                    "parent_id": "ee82ad780bd211ec95ad8b701daa976a",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T18:56:34.248942+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.the_home_depot_ecosmart_zbt_a19_cct_bulb_642b90fe_level_light_color_on_off",
+                "state": "off",
+                "attributes": {
+                    "min_mireds": 153,
+                    "max_mireds": 370,
+                    "off_brightness": null,
+                    "friendly_name": "The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 642b90fe level, light_color, on_off",
+                    "supported_features": 43
+                },
+                "last_changed": "2021-09-02T01:31:43.457962+00:00",
+                "last_updated": "2021-09-02T01:31:43.457962+00:00",
+                "context": {
+                    "id": "879446110b8d11ec929737468e64b911",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-02T01:35:04.900214+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.the_home_depot_ecosmart_zbt_a19_cct_bulb_level_light_color_on_off",
+                "state": "off",
+                "attributes": {
+                    "min_mireds": 153,
+                    "max_mireds": 370,
+                    "off_brightness": null,
+                    "friendly_name": "Living Room Light South level, light_color, on_off",
+                    "supported_features": 43
+                },
+                "last_changed": "2021-09-02T01:34:35.662425+00:00",
+                "last_updated": "2021-09-02T01:34:35.662425+00:00",
+                "context": {
+                    "id": "ee3895640b8d11ec92b6f59642307d27",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-02T01:35:04.900214+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.philips_rwl020_70c9d602_power",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Philips RWL020 70c9d602 power",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-09-02T01:33:14.226571+00:00",
+                "last_updated": "2021-09-02T01:33:14.226571+00:00",
+                "context": {
+                    "id": "bdae76230b8d11eca2a37d3a3a8f7d52",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-02T01:33:52.766658+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.the_home_depot_ecosmart_zbt_a19_cct_bulb_b9e4c7fe_level_light_color_on_off",
+                "state": "off",
+                "attributes": {
+                    "min_mireds": 153,
+                    "max_mireds": 370,
+                    "off_brightness": null,
+                    "friendly_name": "The Home Depot Ecosmart-ZBT-A19-CCT-Bulb b9e4c7fe level, light_color, on_off",
+                    "supported_features": 43
+                },
+                "last_changed": "2021-09-02T01:34:20.577085+00:00",
+                "last_updated": "2021-09-02T01:34:20.577085+00:00",
+                "context": {
+                    "id": "e53ac0620b8d11ec93a9ff521c9d47a9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-02T01:34:35.645482+00:00"
+        }
+    ]
+}

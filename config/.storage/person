@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Michael Donnelly",
+                "user_id": "f65b8439c68141b3bfdc91917ed11943",
+                "device_trackers": [],
+                "id": "michael_donnelly"
+            }
+        ]
+    }
+}

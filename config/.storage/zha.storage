@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "key": "zha.storage",
+    "data": {
+        "devices": [
+            {
+                "name": "Silicon Labs EZSP",
+                "ieee": "00:0d:6f:00:14:d6:5f:7c",
+                "last_seen": 1630545994.0576868
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-A19-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:90:2b:64",
+                "last_seen": 1630781327.5164607
+            },
+            {
+                "name": "Philips RWL020",
+                "ieee": "00:17:88:01:02:d6:c9:70",
+                "last_seen": 1630779727.1812558
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-A19-CCT-Bulb",
+                "ieee": "14:b4:57:ff:fe:c7:e4:b9",
+                "last_seen": 1630781972.7675838
+            }
+        ]
+    }
+}
